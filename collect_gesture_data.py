@@ -10,7 +10,7 @@ mp_draw = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
 gesture_label = input("Enter gesture label (e.g., open, fist, point): ")
 
-file = open("data/hand_gesture_data.csv", "a", newline='')
+file = open("data/hand_gesture_data.XLSX", "a", newline='')
 writer = csv.writer(file)
 
 print("Collecting data in 5 seconds...")
